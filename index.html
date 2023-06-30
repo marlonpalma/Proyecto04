@@ -10,16 +10,16 @@
 <body>
     <div class="container">
         <div class="columna-delgada">
-            <section>
+            <section class="information">
                 <img src="./imagenes/profile.jpg" alt="">
                 <h1>Billy Pearson</h1>
                 <h4>Front-end developer</h4>
-                <div>
-                    <img src="" alt="">
+                <div class="icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/95/95645.png" alt="">
                     <h3>billy@example.com</h3>
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="icons">
+                    <img src="https://img.freepik.com/iconos-gratis/telefono-auricular_318-1028.jpg?w=360" alt="">
                     <h3>(+603) 546 624 342</h3>
                 </div>
                 <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
@@ -30,7 +30,7 @@
                 <div>
                     <article class="adidas">
                         <img src="./imagenes/Adidas.png" alt="">
-                        <div>
+                        <div class="experiences-text">
                             <h4>Feb 2017 - Current</h4>
                             <h3>Front-end developer</h3>
                             <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
@@ -39,7 +39,7 @@
 
                     <article class="hym">
                         <img src="./imagenes/H&M.png" alt="">
-                        <div>
+                        <div class="experiences-text">
                             <h4>Aug 2016 - Feb 2018</h4>
                             <h3>Full-stack developer</h3>
                             <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
@@ -48,7 +48,7 @@
 
                     <article class="nivea">
                         <img src="./imagenes/Nivea.png" alt="">
-                        <div>
+                        <div class="experiences-text">
                             <h4>Jun 2015 - Aug 2016</h4>
                             <h3>Junior front-end developer</h3>
                             <p>
@@ -60,7 +60,7 @@
             </section>
 
             <section class="hobbies">
-                <h2>hobbies</h2>
+                <h2>Hobbies</h2>
                 <div>
                     <article>
                         <img src="./imagenes/hobbie01.jpg" alt="">
@@ -83,8 +83,8 @@
 
         <div class="columna-doble">
             <section class="skills">
-                <div>
-                    <h2>Front End</h2>
+                <div class="skill">
+                    <h2>FRONT END</h2>
                     <div>
                         <label for="">React</label>
                         <progress max="100" value="60"></progress>
@@ -111,8 +111,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <h2>Design</h2>
+                <div class="skill">
+                    <h2>DESIGN</h2>
                     <div>
                         <label for="">Figma</label>
                         <progress max="100" value="60"></progress>
@@ -127,7 +127,7 @@
                 <h3>Projects (3)</h3>
             </section>
 
-            <section>
+            <section class="section-project">
                 <article>
                     <img src="./imagenes/project01.jpg" alt="">
                     <div>
@@ -137,8 +137,8 @@
                             In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. 
                         </p>
                         <div>
-                            <button>Demo</button>
-                            <button>Code</button>
+                            <button class="project-azul">Demo</button>
+                            <button class="project-blanco">Code</button>
                         </div>
                     </div>
                 </article>
@@ -151,8 +151,8 @@
                             In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. 
                         </p>
                         <div>
-                            <button>Demo</button>
-                            <button>Code</button>
+                            <button class="project-azul">Demo</button>
+                            <button class="project-blanco">Code</button>
                         </div>
                     </div>
                 </article>
@@ -165,33 +165,40 @@
                             In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. 
                         </p>
                         <div>
-                            <button>Demo</button>
-                            <button>Code</button>
+                            <button class="project-azul">Demo</button>
+                            <button class="project-blanco">Code</button>
                         </div>
                     </div>
                 </article>
             </section>
 
 
-            <section>
+            <section class="blogs">
                 <h3>Blogs (1)</h3>
             </section>
 
-            <section>
+            <section class="section-blog">
                 <div>
                     <h5>Blog</h5>
-                    <h2>How to organize your CSS</h2>
-                    <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  
-
-                        Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-                    <p>dev.to</p>
+                    <h2>How to 
+                    organize your 
+                    CSS</h2>
+                    <p class="space-top">
+                    In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.
+                    </p>
+                    <p class="space-bottom">
+                    Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
+                    </p>
+                    <div class="section-blog-azul">
+                        <p>dev.to</p>
+                    </div>
                 </div>
                 <img src="./imagenes/blog01.jpg" alt="">
             </section>
+            <footer>
+                <h6>created by username - devChallenges.io</h6>
+            </footer>
         </div>
-        <footer>
-            <h6>created by username - devChallenges.io</h6>
-        </footer>
     </div>
 </body>
 </html>
